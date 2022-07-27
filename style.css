@@ -6,9 +6,10 @@ body{
 }
 .video{
     
-   background-size: cover;
-    height: 100vh;
-    width: 195vh;
+    
+   width: 100%;
+   height: 100%;
+   
     z-index: 100;
 
 }
@@ -30,7 +31,7 @@ body{
     font-size:50px;
     font-weight: bold;
     color: #ffffff;
-    margin-top: -49%;
+    margin-top: -55%;
     margin-left: 40px;
     z-index: 100;
     
@@ -53,10 +54,10 @@ body{
     list-style: none;
     font-size: 20px;
     position: absolute;
-    columns: 4;
+    columns: 3;
     column-gap: 40px;
-    margin-left: 70%;
-    margin-top: -48%;
+    margin-left: 65%;
+    margin-top: -52%;
     font-family: 'Montserrat' ;
     font-weight: bold;
     z-index: 100;
@@ -75,7 +76,7 @@ body{
     color: #ffffff;
     z-index: 100;
     font-size: 40px;
-    margin-top: -40%;
+    margin-top: -47%;
     font-family: 'Montserrat' ;
     margin-left: 200px;
     font-weight: bolder;
@@ -88,14 +89,14 @@ body{
     color: #ffffff;
     z-index: 100;
     font-size: 40px;
-    margin-top: -35%;
+    margin-top: -43%;
     font-family: 'Montserrat' ;
     margin-left: 200px;
     font-weight: bold;
 }
 .btn{
   position: absolute;
-    margin-top: -15%;
+    margin-top: -25%;
     z-index: 100;
     margin-left: 15%;
     padding-left: 55px;
@@ -112,7 +113,7 @@ body{
 }
 .logo{
     position: absolute;
-    margin-top: -9%;
+    margin-top: -19%;
     margin-left: 14.7%;
     z-index: 100;
 }
@@ -128,14 +129,14 @@ h1{
 .logo1{
     position: absolute;
     z-index: 100;
-    margin-top: -8.8%;
+    margin-top: -18.8%;
     margin-left: 20%;
 
 }
 .logo3{
     position: absolute;
     z-index: 100;
-    margin-top: -8.6%;
+    margin-top: -18.6%;
     margin-left: 24%;
 
 }
