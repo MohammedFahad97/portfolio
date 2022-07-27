@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fuzzy+Bubbles&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans&family=Orbitron&family=Poiret+One&family=Square+Peg&display=swap');
 body{
+    display: block;
     background-color: #000000;
 
 }
