@@ -27,11 +27,11 @@ body{
 .navbar{
     display: block;
     position:absolute;
-    font-size:180px;
+    font-size:50px;
     font-weight: bold;
     color: #ffffff;
     margin-top: -49%;
-    margin-left: 200px;
+    margin-left: 40px;
     z-index: 100;
     
 
@@ -39,11 +39,11 @@ body{
 .tittle{
     color: #ffffff;
     background-color: darkred;
-    padding-bottom: 10px;
-    padding-left: 30px;
+    padding-bottom: 1px;
+    padding-left: 10px;
     padding-right: 10px;
-    border-radius: 25px;
-    box-shadow: 10px 10px 1px #000000;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #000000;
     
     
 }
@@ -51,10 +51,10 @@ body{
     display: block;
     color: #ffffff;
     list-style: none;
-    font-size: 50px;
+    font-size: 20px;
     position: absolute;
-    columns: 3;
-    column-gap: 250px;
+    columns: 4;
+    column-gap: 40px;
     margin-left: 70%;
     margin-top: -48%;
     font-family: 'Montserrat' ;
@@ -74,10 +74,10 @@ body{
     position: absolute;
     color: #ffffff;
     z-index: 100;
-    font-size: 140px;
+    font-size: 40px;
     margin-top: -40%;
     font-family: 'Montserrat' ;
-    margin-left: 500px;
+    margin-left: 200px;
     font-weight: bolder;
 }
 .Fahad{
@@ -87,33 +87,33 @@ body{
     position: absolute;
     color: #ffffff;
     z-index: 100;
-    font-size: 140px;
+    font-size: 40px;
     margin-top: -35%;
     font-family: 'Montserrat' ;
-    margin-left: 500px;
+    margin-left: 200px;
     font-weight: bold;
 }
 .btn{
   position: absolute;
     margin-top: -15%;
     z-index: 100;
-    margin-left: 10%;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 65px;
+    margin-left: 15%;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
     color: #ffffff;
     background-color: transparent;
-    border: 8px solid darkred;
-    border-radius: 100px;
+    border: 2px solid darkred;
+    border-radius: 20px;
     font-family: 'Montserrat' ;
     font-weight: bold;
 }
 .logo{
     position: absolute;
-    margin-top: -8%;
-    margin-left: 11%;
+    margin-top: -9%;
+    margin-left: 14.7%;
     z-index: 100;
 }
 h1{
@@ -123,19 +123,19 @@ h1{
     font-family: 'Montserrat' , cursive;
     color: #ffffff;
     z-index: 70;
-    margin-top: -10%;
+    margin-top: -1%;
 }
 .logo1{
     position: absolute;
     z-index: 100;
-    margin-top: -7.8%;
-    margin-left: 16%;
+    margin-top: -8.8%;
+    margin-left: 20%;
 
 }
 .logo3{
     position: absolute;
     z-index: 100;
-    margin-top: -7.6%;
-    margin-left: 20.1%;
+    margin-top: -8.6%;
+    margin-left: 24%;
 
 }
