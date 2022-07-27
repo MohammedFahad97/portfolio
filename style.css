@@ -12,7 +12,6 @@ body{
     background-attachment: fixed;
     background-size: 100% 100%;
     position: relative;
-    background-color: white;
     z-index: 2;
 
 }
@@ -65,7 +64,7 @@ body{
     font-weight: bold;
     z-index: 100;
 }
-.img{
+/* .img{
     height: 200vh;
     z-index: 100;
     position: absolute;
@@ -73,7 +72,7 @@ body{
     margin-left:20% ;
     height: 100vh;
     clip-path: circle(31.2% at 41% 29%);
-}
+} */
 .name-tag{
     position: absolute;
     color: #ffffff;
@@ -135,4 +134,109 @@ body{
     margin-top: -18.6%;
     margin-left: 23%;
 
+}
+@media only screen and  (max-width:700px){
+    .video{
+        background-position:100%;
+        width: 220%;
+        height: 250%;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: white;
+        z-index: 2;
+    
+    }
+    .navbar{
+        display: block;
+        position:absolute;
+        font-size:37px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-top: -115%;
+        margin-left: 40px;
+        z-index: 100;
+        
+    
+    }
+    .tittle{
+        color: #ffffff;
+        background-color: darkred;
+        padding-bottom: 1px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 3px;
+        box-shadow: 1px 1px 1px #000000;
+        
+        
+    }
+    .list{
+        display: block;
+        color: #ffffff;
+        list-style: none;
+        font-size: 15px;
+        position: absolute;
+        columns: 5;
+        column-gap: 20px;
+        margin-left: 35%;
+        margin-top: -112%;
+        font-family: 'Montserrat' ;
+        font-weight: bold;
+        z-index: 100;
+    }
+    .name-tag{
+        position: absolute;
+        color: #ffffff;
+        z-index: 100;
+        font-size: 30px;
+        margin-top: -87%;
+        font-family: 'Montserrat' ;
+        margin-left: 30px;
+        font-weight: bolder;
+    }
+    .passion{
+        position: absolute;
+        color: #ffffff;
+        z-index: 100;
+        font-size: 20px;
+        margin-top: -75%;
+        font-family: 'Montserrat' ;
+        margin-left: 30px;
+        font-weight: bold;
+    }
+    .btn{
+    position: absolute;
+    margin-top: -42%;
+    z-index: 100;
+    margin-left: 15px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid darkred;
+    border-radius: 20px;
+    font-family: 'Montserrat' ;
+    font-weight: bold;
+    }
+    .logo{
+        position: absolute;
+        margin-top: -25%;
+        margin-left: 7.2%;
+        z-index: 100;
+    }
+    .logo1{
+        position: absolute;
+        z-index: 100;
+        margin-top: -24.8%;
+        margin-left: 19%;
+    
+    }
+    .logo3{
+        position: absolute;
+        z-index: 100;
+        margin-top: -24.6%;
+        margin-left: 28%;
+    }
 }
