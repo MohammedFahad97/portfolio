@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fuzzy+Bubbles&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans&family=Orbitron&family=Poiret+One&family=Square+Peg&display=swap');
+body{
+    background-color: #000000;
+
+}
+.video{
+    
+   background-size: cover;
+    height: 100vh;
+    width: 195vh;
+    z-index: 100;
+
+}
+#overlay{
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7); 
+    z-index: 100; 
+    cursor: pointer; 
+}
+.navbar{
+    display: block;
+    position:absolute;
+    font-size:180px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: -49%;
+    margin-left: 200px;
+    z-index: 100;
+    
+
+}
+.tittle{
+    color: #ffffff;
+    background-color: darkred;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 1px #000000;
+    
+    
+}
+.list{
+    display: block;
+    color: #ffffff;
+    list-style: none;
+    font-size: 50px;
+    position: absolute;
+    columns: 3;
+    column-gap: 250px;
+    margin-left: 70%;
+    margin-top: -48%;
+    font-family: 'Montserrat' ;
+    font-weight: bold;
+    z-index: 100;
+}
+.img{
+    height: 200vh;
+    z-index: 100;
+    position: absolute;
+    margin-top: -42%;
+    margin-left:20% ;
+    height: 100vh;
+    clip-path: circle(31.2% at 41% 29%);
+}
+.name-tag{
+    position: absolute;
+    color: #ffffff;
+    z-index: 100;
+    font-size: 140px;
+    margin-top: -40%;
+    font-family: 'Montserrat' ;
+    margin-left: 500px;
+    font-weight: bolder;
+}
+.Fahad{
+    color:darkred;
+}
+.passion{
+    position: absolute;
+    color: #ffffff;
+    z-index: 100;
+    font-size: 140px;
+    margin-top: -35%;
+    font-family: 'Montserrat' ;
+    margin-left: 500px;
+    font-weight: bold;
+}
+.btn{
+  position: absolute;
+    margin-top: -15%;
+    z-index: 100;
+    margin-left: 10%;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 65px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 8px solid darkred;
+    border-radius: 100px;
+    font-family: 'Montserrat' ;
+    font-weight: bold;
+}
+.logo{
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 11%;
+    z-index: 100;
+}
+h1{
+    position: absolute;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Montserrat' , cursive;
+    color: #ffffff;
+    z-index: 70;
+    margin-top: -10%;
+}
+.logo1{
+    position: absolute;
+    z-index: 100;
+    margin-top: -7.8%;
+    margin-left: 16%;
+
+}
+.logo3{
+    position: absolute;
+    z-index: 100;
+    margin-top: -7.6%;
+    margin-left: 20.1%;
+
+}
